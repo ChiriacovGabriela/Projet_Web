@@ -1,0 +1,70 @@
+legend{
+    text-align: center;
+}
+
+input{
+    border: 1px solid;
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+}
+
+fieldset{
+    width:500px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFE7B8;
+}
+
+body{
+    height: 100%;
+    font-family: Avenir;
+    font-size: 14px;
+}
+
+section{
+    border-length: 500px;
+}
+
+#resetPw{
+    font-size:10px;
+    text-align: right;
+    color: lightslategrey;
+}
+
+a{
+    text-decoration: none;
+    color:grey;
+}
+
+.submit{
+    border: none;
+    font-family: Avenir;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+    background-color:#CC8114;
+}
+
+.modify{
+    border: 1px solid;
+    font-family: Avenir;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+    background-color:#CC8114;
+}
+
+p{
+    text-align: center;
+}
