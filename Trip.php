@@ -21,12 +21,18 @@
 <div class="header_titre"> <h1>Voyages </h1> </div>
 </header>
 <div class="intro1">
-    <table>
+
+<table>
 <?php
     foreach($lestrips as $untrip){
         echo "<tr>
-                <td>".$unTrip['idt']."</td>;
+                <td>".$unTrip['country_t']."</td>;
+                <td>".$unTrip['city_t']."</td>;
+                <td>".$unTrip['duree_t ']."</td>;
                 <td>".$unTrip['descriptiv']."</td>;
+                <td>".$unTrip['activity_1']."</td>;
+                <td>".$unTrip['activity_2']."</td>;
+                <td>".$unTrip['activity_3']."</td>;
             </tr>"
     }
 
