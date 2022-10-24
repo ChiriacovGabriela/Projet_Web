@@ -22,6 +22,8 @@ create table  trip
     country_t varchar (20) not null,
     city_t varchar(10) not null,
     duree_t varchar(20),
+    descriptiv varchar(255),
+    activity varchar(255),
     primary key (idt),
     
 
