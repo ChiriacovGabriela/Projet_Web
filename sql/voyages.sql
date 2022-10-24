@@ -61,5 +61,7 @@ create table  trip
 
 
 );
+insert into trip values (null,"Espagne","Barcelona","10 Jours ","Barcelone a tout pour votre escapade citadine idéale en Espagne. Cette ville catalane possède une grande richesse architecturale, d'art et de culture (musées) et n'est donc pas pour rien la ville la plus visitée d'Espagne, avec 7,5 millions de visiteurs par an.Barcelone est une ville remplie de musées, de parcs, de bâtiments de Gaudi et d'autres centres d'intérêt. Barcelone a davantage à offrir que les points forts que sont la Sagrada Familia, le Parc Guell et le Camp Nou. ","1.Sagrada Familia 2.Parc Guell 3.Camp Nou 4. CasaMilla 'La Pedrera'");
+
 
 
