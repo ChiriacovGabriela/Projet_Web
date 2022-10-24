@@ -1,0 +1,54 @@
+.regform{
+    width:800px;
+    background-color:rgb(119,100,79,0.5);
+    margin: auto;
+    color:#FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align:center;
+    border-radius:15px 15px 0px 0px;
+    }
+    
+    .category{
+    margin-left:25px;
+    margin-top:30px;
+    width:125px;
+    color:black;
+    font-size:18px;
+    font-weight:700;
+    text-align:right;
+    vertical-align:top;
+    }
+    
+    .box{
+    border-radius:6px;
+    height:15px;
+    text-transform:capitalize;
+    }
+    
+    .option{
+    text-align:left;
+    width:432px;
+    height:30px;
+    border-radius:6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+    overflow:hidden;
+    }
+    
+    .button{
+    background-color:rgb(119,100,79,0.0);
+    border: none;
+    color:#2b2725;
+    padding: 15px 32px;
+    font-size: 16px;
+    }
+    
+    body{
+    background-image:url("picture.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    margin-top:40px;
+    height:100%;
+    }

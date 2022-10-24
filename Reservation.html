@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Reservation.css">
+<title>Réservation</title>
+</head>
+
+<body>
+
+<div><h1 class="regform" >Votre réservation</h1></div>
+<table>
+
+<tr>
+<td class="category">Destination</td>
+<td><select class="box">
+<option disabled selected value> où souhaitez-vous aller </option>
+<option>Paris</option>
+<option>Barcelone</option>
+<option>Prague</option>
+<option>Berlin</option>
+<option>Rome</option></select>
+</td>
+</tr>
+
+<tr><td class="category"><label for="DepartureDate" >Date début</label></td>
+<td><input type="datetime" name="DepartureDate" class="box"></td></tr>
+
+<tr><td class="category"><label for="ReturnDate" >Date retour</label></td>
+<td><input type="datetime" name="ReturnDate" class="box"></td></tr>
+
+<tr><td class="category"><label for="AdultsNb" >Nombre d'adultes</label></td>
+<td><input type="text" name="AdultsNb" class="box"></td></tr>
+
+<tr><td class="category"><label for="ChildrenNb" >Nombre d'enfants</label></td>
+<td><input type="text" name="ChildrenNb" class="box"></td></tr>
+
+<tr>
+<td class="category">Nombre de chambres</td>
+<td class="choix">
+<input type="radio" name="RoomsNb" value="One" id="One"><label for="One"> 1</label><br>
+<input type="radio" name="RoomsNb" value="Two" id="Two"><label for="Two"> 2</label><br>
+<input type="radio" name="RoomsNb" value="Three" id="Three"><label for="Three"> 3</label><br></td>
+</tr>
+
+<tr><td colspan="2" class="button1">
+<button type="submit" class="button" onclick="myfunction()"> Enregistrer </button>
+
+
+
+
+</table>
+
+
+
+
+
+</body>
+
+
+</html>
