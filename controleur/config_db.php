@@ -1,7 +1,7 @@
 <?php 
 
 $serveur = "localhost";
-$bdd = "materielbdd";
+$bdd = "projetvoyage";
 $user = "root";
 $mdp = "";
 
