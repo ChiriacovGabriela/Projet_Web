@@ -21,15 +21,19 @@
 <div class="header_titre"> <h1>Voyages </h1> </div>
 </header>
 <div class="intro1">
+    <table>
 <?php
     foreach($lestrips as $untrip){
-        echo "<option value ='" $untrip['idt']."'>".$untrip['description']."</option>";
+        echo "<tr>
+                <td>".$unTrip['idt']."</td>;
+                <td>".$unTrip['descriptiv']."</td>;
+            </tr>"
     }
 
 ?>
+</table>
 
-hdgsfjhsdfhjjhsdhjhjdshjdbfjbdfjh<br>
-dshbfjhd<br>
+<br>
 
 
 
