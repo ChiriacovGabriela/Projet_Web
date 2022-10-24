@@ -25,5 +25,5 @@
 					case 0 : require_once("home.php"); break;
 					default : require_once("erreur.php"); break;
 				}
-			}
+			
 		?>
